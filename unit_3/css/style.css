@@ -1,0 +1,74 @@
+.hero{
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url("../images/macau.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  /*background-size: 1000px 500px;*/
+ ;
+ height:750px;
+
+/*background-size: 1000px 500px ;*/
+}
+h1 {
+ color:white;
+ position:absolute;
+ top:30%;
+ left:75%;
+ font-style:italic;
+
+}
+body {
+  background-color:#191919;
+  color:white;
+  font-family: 'Tahoma','Geneva', sans-serif;
+}
+
+
+.nav ul{
+  list-style:none;
+  background-color:#191919;
+  text-align:center;
+  padding:0;
+  margin:0;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+ .nav li {
+       font-family: 'Tahoma','Geneva', sans-serif;
+      font-size: 20px;
+      line-height: 40px;
+      height: 40px;
+      border-bottom: 1px solid #888;
+      display: inline-block;
+      margin-right:10px;
+      color: rgb(204,204,204);
+
+    }
+
+   #logo {
+    color:gold;
+    font-size:24px;
+    font-weight:500;
+    font-style:italic;
+    border-right:1px solid gold;
+    padding-right:10px;
+  }
+  #contact a{
+    padding:10px;
+    color:lightblue;
+  }
+a {
+  text-decoration: none;
+  color:white;
+
+}
+h2{
+  text-align:center;
+}
